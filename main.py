@@ -8,7 +8,7 @@ BOT_USERNAME: Final='@cntrl_skj_bot'
 
 # Commands
 async def start_command(update: Update, Context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text('Hello!! welcome to skynet-git-desk.')
+    await update.message.reply_text('Hello!! welcome to skynet-git-desk2.')
 
 async def help_command(update: Update, Context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Hello!! for help contact SKJ-git.')
